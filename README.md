@@ -14,6 +14,10 @@
   [![Discord](https://img.shields.io/discord/397127284114325504?label=Discord&logo=discord)](https://tgf.click/discord)
 </div>
 
+<div align="center">
+  <img src="OBS Auto Fullscreener.png" alt="OBS Auto Fullscreener Interface" width="800"/>
+</div>
+
 ## 📑 Table of Contents
 - [✨ Key Features](#-key-features)
 - [🎯 Use Cases](#-use-cases)
@@ -58,8 +62,7 @@
 - **User Experience**:
   - Intuitive settings interface
   - Grouped configuration options
-  - Detailed tooltips
-  - Status feedback
+
 
 ## 🎯 Use Cases
 
@@ -211,7 +214,7 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 ---
 
 <div align="center">
-  <p>© TheGeekFreaks 2025</p>
+  <p> TheGeekFreaks 2025</p>
   <p>
     <a href="https://tgf.click/discord">Discord</a> •
     <a href="https://github.com/The-Geek-Freaks">GitHub</a> •
