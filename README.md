@@ -1,9 +1,9 @@
 <div align="center">
-  <h1>🎥 OBS-Auto-Fullscreener</h1>
-  <p>A powerful OBS Studio plugin for automated multi-monitor projector management.</p>
+  <h1>🎥 Auto-Fullscreener</h1>
+  <p>A powerful OBS Studio script for automated multi-monitor projector management.</p>
   <p>Perfect for streamers, content creators, and professional broadcasters.</p>
 
-  ![Status](https://img.shields.io/badge/Status-Beta-yellow)
+  ![Downloads](https://img.shields.io/github/downloads/The-Geek-Freaks/OBS-Auto-Fullscreener/total)
   ![Version](https://img.shields.io/badge/Version-1.0.0-blue)
   ![Python](https://img.shields.io/badge/python-3.9+-green.svg)
   ![OBS](https://img.shields.io/badge/OBS-30.0+-purple.svg)
