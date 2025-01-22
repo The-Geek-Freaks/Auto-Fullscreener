@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🎥 OBS Auto Fullscreener</h1>
+  <h1>🎥 OBS-Auto-Fullscreener</h1>
   <p>A powerful OBS Studio plugin for automated multi-monitor projector management.</p>
   <p>Perfect for streamers, content creators, and professional broadcasters.</p>
 
