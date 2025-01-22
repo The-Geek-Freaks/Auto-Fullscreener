@@ -54,12 +54,9 @@
   - Crash protection
   - Resource cleanup
   - Error logging
-  - Automatic recovery
 - **User Experience**:
   - Intuitive settings interface
   - Grouped configuration options
-  - Detailed tooltips
-  - Status feedback
 
 ## 🎯 Use Cases
 
@@ -103,7 +100,6 @@
 #### macOS
 - Python 3.9 or higher
 - macOS 11.0 (Big Sur) or higher
-- XCode Command Line Tools (for Python)
 
 #### Linux
 - Python 3.9 or higher
