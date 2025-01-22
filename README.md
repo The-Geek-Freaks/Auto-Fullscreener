@@ -15,7 +15,7 @@
 </div>
 
 <div align="center">
-  <img src="OBS Auto Fullscreener.png" alt="OBS Auto Fullscreener Interface" width="800"/>
+  <img src="Auto Fullscreener.png" alt="OBS Auto Fullscreener Interface" width="800"/>
 </div>
 
 ## 📑 Table of Contents
