@@ -8,6 +8,8 @@
   ![Python](https://img.shields.io/badge/python-3.9+-green.svg)
   ![OBS](https://img.shields.io/badge/OBS-30.0+-purple.svg)
   ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue)
+  ![macOS](https://img.shields.io/badge/macOS-11.0+-silver)
+  ![Linux](https://img.shields.io/badge/Linux-Compatible-orange)
   ![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
   [![Discord](https://img.shields.io/discord/397127284114325504?label=Discord&logo=discord)](https://tgf.click/discord)
 </div>
@@ -84,11 +86,39 @@
 1. Download the latest release from the releases page
 2. Place the script in your OBS scripts folder:
    - Windows: `%APPDATA%\obs-studio\scripts`
+   - macOS: `~/Library/Application Support/obs-studio/scripts`
+   - Linux: `~/.config/obs-studio/scripts`
 3. In OBS Studio:
    - Go to Tools → Scripts
    - Click the + button
    - Select the downloaded script
    - Configure your settings
+
+### Platform-Specific Requirements
+
+#### Windows
+- Python 3.9 or higher
+- Windows 10/11
+
+#### macOS
+- Python 3.9 or higher
+- macOS 11.0 (Big Sur) or higher
+- XCode Command Line Tools (for Python)
+
+#### Linux
+- Python 3.9 or higher
+- X11 or Wayland
+- Required packages:
+  ```bash
+  # Ubuntu/Debian
+  sudo apt-get install python3-pip python3-tk
+  
+  # Fedora
+  sudo dnf install python3-pip python3-tkinter
+  
+  # Arch Linux
+  sudo pacman -S python-pip python-tk
+  ```
 
 ## 🛠️ Configuration
 
@@ -134,17 +164,40 @@
 1. **Monitor Not Detected**:
    - Ensure monitor is connected
    - Try reconnecting the display
-   - Check Windows display settings
+   - Check display settings:
+     - Windows: Windows display settings
+     - macOS: System Settings → Displays
+     - Linux: Check display settings in your desktop environment
 
 2. **Projection Issues**:
    - Verify monitor selection
    - Check OBS Studio version
    - Ensure sufficient system resources
+   - For Linux: Verify X11/Wayland compatibility
 
 3. **Performance Problems**:
    - Lower projection resolution
    - Update graphics drivers
    - Check system resources
+   - For macOS: Check Energy Saver settings
+   - For Linux: Verify compositor settings
+
+### Platform-Specific Solutions
+
+#### Windows
+- Update Windows display drivers
+- Check Windows HDR settings
+- Verify Windows scaling settings
+
+#### macOS
+- Check System Integrity Protection (SIP) settings
+- Verify screen recording permissions
+- Update macOS and OBS to latest versions
+
+#### Linux
+- Check display server (X11/Wayland) compatibility
+- Verify desktop environment permissions
+- Update graphics drivers and compositor
 
 ### Support
 - Check the [Issues](https://github.com/The-Geek-Freaks/OBS-Auto-Fullscreener/issues) page
