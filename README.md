@@ -4,8 +4,6 @@
   <p>Perfect for streamers, content creators, and professional broadcasters.</p>
 
   ![Downloads](https://img.shields.io/github/downloads/The-Geek-Freaks/OBS-Auto-Fullscreener/total)
-  [![Github All Releases](https://img.shields.io/github/downloads/The-Geek-Freaks/OBS-Auto-Fullscreener/total.svg)]()
-
   ![Version](https://img.shields.io/badge/Version-1.0.0-blue)
   ![Python](https://img.shields.io/badge/python-3.9+-green.svg)
   ![OBS](https://img.shields.io/badge/OBS-30.0+-purple.svg)
